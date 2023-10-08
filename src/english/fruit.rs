@@ -9,6 +9,7 @@ pub fn to_thing<'a>(num: u32, fruit: Fruit) -> Thing<'a> {
         Fruit::Apple => result = Thing::new( Sex::Any, true, "apple", "apples"),
         Fruit::Orange => result = Thing::new( Sex::Any, true, "orange", "oranges"),
         Fruit::Banana => result = Thing::new( Sex::Any, false, "banana", "bananas"),
+        Fruit::Grape => result = Thing::new( Sex::Any, false, "grape", "grapes"),
         Fruit::Strawberry => result = Thing::new( Sex::Any, false, "strawberry", "strawberries"),
         Fruit::Pear => result = Thing::new( Sex::Any, false, "pear", "pears" ),
         Fruit::WaterMelon => result = Thing::new( Sex::Any, false, "watermelon", "watermelons" ),

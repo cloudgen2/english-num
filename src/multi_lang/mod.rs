@@ -99,7 +99,7 @@ pub fn ask_n_check_drink(q: u32, min: u32, max: u32, drink_type:Drink, lang:Lang
 pub fn ask_n_check_fruit(q: u32, min: u32, max: u32, fruit_type:Fruit, lang:Lang) {
     let mut fruit_val:Fruit = fruit_type;
     if matches!(fruit_val, Fruit::Any) {
-        let r = rand::thread_rng().gen_range(0..=6);
+        let r = rand::thread_rng().gen_range(0..=7);
         match r{
             0 => fruit_val = Fruit::Apple,
             1 => fruit_val = Fruit::Orange,
@@ -108,6 +108,7 @@ pub fn ask_n_check_fruit(q: u32, min: u32, max: u32, fruit_type:Fruit, lang:Lang
             4 => fruit_val = Fruit::Pear,
             5 => fruit_val = Fruit::Cherry,
             6 => fruit_val = Fruit::WaterMelon,
+            7 => fruit_val = Fruit::Grape,
             _ => fruit_val = Fruit::Any
         }
     }  
@@ -169,10 +170,12 @@ pub fn ask_n_check_animal(q: u32, min: u32, max: u32, animal_type:Animal, lang:L
 pub fn ask_n_check_transport(q: u32, min: u32, max: u32, transport_type:Transport, lang:Lang) {
     let mut transport_val:Transport = transport_type;
     if matches!(transport_val, Transport::Any) {
-        let r = rand::thread_rng().gen_range(0..=1);
+        let r = rand::thread_rng().gen_range(0..=3);
         match r{
             0 => transport_val = Transport::Bus,
             1 => transport_val = Transport::Car,
+            2 => transport_val = Transport::Ambulance,
+            3 => transport_val = Transport::Taxi,
             _ => transport_val = Transport::Any
         }
     }
