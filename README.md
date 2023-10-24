@@ -1,10 +1,5 @@
 # english-num
-An english number exercise written in Rust
-
-## Update
-
-### Version v0.2.16 
- * Add online installer
+An english number exercise written in Rust. This project uses the online-downloader script in https://github.com/cloudgen2/online-downloader
 
 ## Online Installation
 ```
@@ -32,49 +27,62 @@ cp target/release/english-num ~/.local/bin/
 ```
 ############################
 #
-# french-num v.0.2.10
-# Mis à jour le: 2023-07-17
+# english-num v.0.4.0
+# Updated at: 2023-10-14
 #
 ############################
 
-Tapez 'exit' pour terminer le programme!
+Type 'exit' to terminate the program!
 
-== Premier niveau L1 ==
-1) Quel est le numéro 5 en français? cinq
-» C'est correct!
-2) Quel est le numéro 6 en français? six
-» C'est correct!
-3) Quel est le numéro 2 en français? duex
-» La bonne réponse est 'deux'.
- ** 3) Quel est le numéro 2 en français? deux
-» C'est correct!
-4) Quel est le numéro 6 en français? siix
-» La bonne réponse est 'six'.
- ** 4) Quel est le numéro 6 en français? six
-» C'est correct!
-5) Quel est le numéro 10 en français? dix
-» C'est correct!
-6) Quel est le numéro 1 en français? un
-» C'est correct!
-7) Quel est le numéro 7 en français? sept
-» C'est correct!
-8) Quel est le numéro 10 en français? dix
-» C'est correct!
-9) Quel est le numéro 7 en français? sept
-» C'est correct!
-10) Quel est le numéro 8 en français? huit
-» C'est correct!
-12) Qu'est-ce que c'est? ( 1🍎 )? Ceci est une pomme.
-» C'est correct!
-13) Qu'est-ce que c'est? ( 9🍎 )? Ce sont neuf pommes.
-» C'est correct!
-14) Qu'est-ce que c'est? ( 9🍎 )? Ce sont neuf pommes.
-» C'est correct!
-15) Qu'est-ce que c'est? ( 4🍎 )? Ce sont quatre pommes.
-» C'est correct!
-17) Qu'est-ce que c'est? ( 1🍊 )? Ceci est une orange.
-» C'est correct!
-18) Qu'est-ce que c'est? ( 2🍊 )? Ce sont deux oranges.
+== First Level, L1 ==
+1) What is the number 7 in English? seven
+» That's correct!
+2) What is the number 10 in English? ten
+» That's correct!
+3) What is the number 7 in English? seven
+» That's correct!
+4) What is the number 10 in English? 10
+» '10'.
+» The correct answer is 'ten'.
+ ** 4) What is the number 10 in English? four
+» 'four'.
+» The correct answer is 'ten'.
+5) What is the number 7 in English? seven
+» That's correct!
+6) What is the number 4 in English? four
+» That's correct!
+7) What is the number 8 in English? eight
+» That's correct!
+8) What is the number 7 in English? seven
+» That's correct!
+9) What is the number 19 in English? nineteen
+» That's correct!
+10) What is the number 12 in English? twelve
+» That's correct!
+11) What is the number 11 in English? eleven
+» That's correct!
+12) What is the number 14 in English? fourteen
+» That's correct!
+13) What is the number 18 in English? eighteen
+» That's correct!
+14) What is the number 13 in English? thirteen
+» That's correct!
+15) What is the number 15 in English? fifteen
+» That's correct!
+16) What is the number 4 in English? four
+» That's correct!
+17) What is the number 7 in English? seven
+» That's correct!
+18) What is the number 17 in English? seventeen
+» That's correct!
+19) What is the number 4 in English? four
+» That's correct!
+20) What is the number 16 in English? sixteen
+» That's correct!
+== Level 2 L2 ==
+21) What is it? ( 1🍌 )? This is a banana.
+» That's correct!
+22) What is it? ( 10🍌 )? 
 ```
 
 Happy Programming!
