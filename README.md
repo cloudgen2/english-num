@@ -1,5 +1,5 @@
 # english-num
-An english number exercise written in Rust. This project uses the online-downloader script in https://github.com/cloudgen2/online-downloader
+An english number exercise written in Rust. This project uses the online-downloader script in https://github.com/cloudgen2/online-installer
 
 ## Online Installation
 ```
